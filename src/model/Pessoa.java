@@ -1,8 +1,8 @@
 package model;
 
 public abstract class Pessoa {
-    private String nome;
-    private String matricula;
+    private final String nome;
+    private final String matricula;
 
     public Pessoa(String nome, String matricula) {
         this.nome = nome;

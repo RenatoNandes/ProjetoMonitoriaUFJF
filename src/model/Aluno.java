@@ -7,6 +7,6 @@ public class Aluno extends Pessoa {
 
     @Override
     public int getLimiteEmprestimos() {
-        return 2;
+        return 3;
     }
 }
