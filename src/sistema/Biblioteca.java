@@ -14,7 +14,7 @@ public class Biblioteca {
 
     public void listar() {
         for (int i = 0; i < itens.size(); i++) {
-            System.out.println(i + " - ");
+            System.out.print(i + " - ");
             itens.get(i).exibirInfo();
         }
     }

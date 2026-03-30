@@ -12,7 +12,7 @@ public class Livro extends Item implements Emprestavel {
 
     @Override
     public void exibirInfo() {
-        System.out.println("Livro: " + this.getTitulo() + " \nEmprestado: " + (this.emprestado ? "Sim" : "Não"));
+        System.out.println("Livro: " + this.getTitulo() + " | Emprestado: " + (this.emprestado ? "Sim" : "Não"));
     }
 
     @Override
