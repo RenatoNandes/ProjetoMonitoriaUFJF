@@ -3,31 +3,43 @@ package model;
 import interfaces.Emprestavel;
 
 public class Livro extends Item implements Emprestavel {
-    private boolean emprestado;
+    protected int quantidade;
 
-    public Livro(String titulo) {
-        super(titulo);
-        this.emprestado = false;
+    public Livro(String titulo, String autor, String id, int ano, int quantidade) {
+        super(titulo, autor, id, ano);
+        this.quantidade = quantidade;
     }
 
     @Override
     public void exibirInfo() {
-        System.out.println("Livro: " + this.getTitulo() + " | Emprestado: " + (this.emprestado ? "Sim" : "Não"));
+        System.out.println("Livro: " + getTitulo() +
+                " | Autor: " + getAutor() +
+                " | ID: " + getId() +
+                " | Ano: " + getAno() +
+                " | Disponível: " + this.quantidade);
     }
 
     @Override
     public void emprestar() {
-        if (!this.emprestado) {
-            this.emprestado = true;
-            System.out.println("Livro emprestado com sucesso");
+        if (quantidade > 0) {
+            quantidade--;
+            System.out.println("Empréstimo realizado com sucesso!");
         } else {
-            System.out.println("Livro já esta emprestado a alguém");
+            System.out.println("Não há exemplares disponíveis de " + getTitulo() + " para empréstimo no momento");
         }
     }
 
     @Override
     public void devolver() {
-        this.emprestado = false;
-        System.out.println("Livro devolvido com sucesso");
+        quantidade++;
+        System.out.println("Devolução realizada com sucesso");
+    }
+
+    public boolean isDisponivel() {
+        return quantidade > 0;
+    }
+
+    public void emprestarPara(Pessoa pessoa) {
+        emprestar();
     }
 }
