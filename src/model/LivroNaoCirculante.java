@@ -15,12 +15,8 @@ public class LivroNaoCirculante extends Livro {
     }
 
     @Override
-    public void emprestarPara(Pessoa pessoa) {
-        System.out.println("Este livro não pode ser emprestado, apenas consultado localmente");
-    }
-
-    @Override
-    public boolean isDisponivel() {
+    public boolean emprestar(Pessoa pessoa) {
+        System.out.println("Empréstimo negado! Este livro não pode ser emprestado, apenas consultado localmente");
         return false;
     }
 }

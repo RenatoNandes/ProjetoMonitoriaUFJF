@@ -18,10 +18,6 @@ public class Emprestimo {
         return pessoa;
     }
 
-    public Livro getLivro() {
-        return livro;
-    }
-
     public boolean isAtivo() {
         return dataDevolucao == null;
     }

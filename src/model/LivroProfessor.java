@@ -15,11 +15,12 @@ public class LivroProfessor extends Livro {
     }
 
     @Override
-    public void emprestarPara(Pessoa pessoa) {
+    public boolean emprestar(Pessoa pessoa) {
         if (pessoa instanceof Professor) {
-            super.emprestar();
+            return super.emprestar(pessoa);
         } else {
-            System.out.println("Este livro só pode ser emprestado para professores");
+            System.out.println("Empréstimo negado! Este livro só pode ser emprestado para professores");
+            return false;
         }
     }
 }

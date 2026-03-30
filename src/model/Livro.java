@@ -20,12 +20,14 @@ public class Livro extends Item implements Emprestavel {
     }
 
     @Override
-    public void emprestar() {
+    public boolean emprestar(Pessoa pessoa) {
         if (quantidade > 0) {
             quantidade--;
             System.out.println("Empréstimo realizado com sucesso!");
+            return true;
         } else {
-            System.out.println("Não há exemplares disponíveis de " + getTitulo() + " para empréstimo no momento");
+            System.out.println("Não há exemplares disponíveis de '" + getTitulo() + "' para empréstimo no momento");
+            return false;
         }
     }
 
@@ -33,13 +35,5 @@ public class Livro extends Item implements Emprestavel {
     public void devolver() {
         quantidade++;
         System.out.println("Devolução realizada com sucesso");
-    }
-
-    public boolean isDisponivel() {
-        return quantidade > 0;
-    }
-
-    public void emprestarPara(Pessoa pessoa) {
-        emprestar();
     }
 }
