@@ -1,0 +1,51 @@
+tipo;titulo;autor;id;ano;quantidade
+normal;Cálculo Diferencial e Integral;James Stewart;CDI001;2019;5
+normal;Álgebra Linear;David Lay;AL002;2018;4
+normal;Probabilidade e Estatística;Mario Triola;PE003;2020;3
+normal;Fundamentos de Física;David Halliday;FF004;2016;6
+normal;Equações Diferenciais;Dennis Zill;ED005;2017;2
+normal;Geometria Analítica;Howard Anton;GA006;2015;3
+normal;Introdução à Computação;Peter Norton;IC007;2012;4
+normal;Estruturas de Dados e Algoritmos;Mark Weiss;EDA008;2019;5
+normal;Sistemas Operacionais Modernos;Andrew Tanenbaum;SOM009;2018;2
+normal;Redes de Computadores;Andrew Tanenbaum;RC010;2017;3
+normal;Banco de Dados;C.J. Date;BD011;2015;2
+normal;Inteligência Artificial;Stuart Russell;IA012;2021;3
+normal;Compiladores Princípios e Técnicas;Alfred Aho;CPT013;2014;2
+normal;Engenharia de Software;Ian Sommerville;ES014;2019;4
+normal;Arquitetura de Computadores;John Hennessy;AC015;2017;3
+normal;Teoria da Informação;Claude Shannon;TI016;2010;2
+normal;Matemática Discreta;Kenneth Rosen;MD017;2018;5
+normal;Cálculo Numérico;Richard Burden;CN018;2016;3
+normal;Análise Real;Walter Rudin;AR019;2015;2
+normal;Topologia;James Munkres;T020;2014;1
+normal;Teoria dos Números;G.H. Hardy;TN021;2012;2
+normal;Lógica Matemática;Elliott Mendelson;LM022;2013;2
+normal;Teoria dos Grafos;Reinhard Diestel;TG023;2017;3
+normal;Algoritmos;Thomas Cormen;A024;2022;5
+normal;Programação em Java;Deitel;PJ025;2019;4
+normal;Python para Ciência de Dados;Jake VanderPlas;PCD026;2021;3
+normal;Machine Learning;Tom Mitchell;ML027;2018;2
+normal;Deep Learning;Ian Goodfellow;DL028;2016;2
+normal;Computação Quântica;Michael Nielsen;CQ029;2020;1
+normal;Criptografia e Segurança;Bruce Schneier;CS030;2015;2
+normal;Computação Gráfica;James Foley;CG031;2014;2
+normal;Visão Computacional;Richard Szeliski;VC032;2021;2
+normal;Processamento de Imagens Digitais;Rafael Gonzalez;PID033;2018;3
+normal;Redes Neurais Artificiais;Simon Haykin;RNA034;2016;2
+normal;Análise de Algoritmos;Robert Sedgewick;AA035;2017;3
+normal;Teoria da Computação;Michael Sipser;TC036;2013;2
+normal;Complexidade Computacional;Christos Papadimitriou;CC037;2017;1
+normal;Didática da Matemática;Paulo Abrantes;DM038;2014;1
+naoCirculante;Enciclopédia de Matemática;Vários autores;EM039;2008;0
+naoCirculante;Atlas de Computação Gráfica;Vários autores;ACG040;2010;0
+naoCirculante;Manual de Física Experimental;Vários autores;MFE041;2005;0
+naoCirculante;Atlas de Redes de Computadores;Vários autores;ARC042;2011;0
+naoCirculante;Enciclopédia de Engenharia Elétrica;Vários autores;EEE043;2009;0
+professor;Teoria da Computação Avançada;Michael Sipser;TCA044;2013;2
+professor;Complexidade Computacional Avançada;Christos Papadimitriou;CCA045;2017;1
+professor;Didática da Matemática Superior;Paulo Abrantes;DMS046;2014;1
+professor;Pesquisa Operacional;Hillier & Lieberman;PO047;2015;2
+professor;Métodos Numéricos Avançados;Richard Burden;MNA048;2016;1
+professor;Inteligência Artificial Aplicada;Stuart Russell;IAA049;2021;1
+professor;Ciência de Dados Avançada;Trevor Hastie;CDA050;2022;1
