@@ -6,6 +6,7 @@ public abstract class Item {
     public Item(String titulo) {
         this.titulo = titulo;
     }
+
     public String getTitulo() {
         return titulo;
     }
